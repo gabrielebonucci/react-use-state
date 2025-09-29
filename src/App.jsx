@@ -5,9 +5,12 @@ import './App.css';
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
   return (
-    <div className='container'>
-
+    <>
+    <header className="page-header">
       <h1>Learn Web development</h1>
+    </header>
+
+    <main className='container'>
 
       <div className='buttons-container'>
 
@@ -33,8 +36,8 @@ function App() {
         <p>{selectedLanguage.description}</p>
       </div>
 
-    </div>
-      
+    </main>
+  </>
   )
 }
 
