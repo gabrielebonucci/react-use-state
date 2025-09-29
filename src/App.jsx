@@ -28,7 +28,8 @@ function App() {
       </div>
 
       <div className='card'>
-
+        <h2>{selectedLanguage.title}</h2>
+        <p>{selectedLanguage.description}</p>
       </div>
 
     </div>
