@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import languages from './languages'
+import './App.css';
 
 function App() {
   const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
